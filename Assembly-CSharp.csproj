@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D07E3D0A-F0F8-1455-EB2E-75EB0B294BF5}</ProjectGuid>
+    <ProjectGuid>{B8070D20-708A-9A3E-4B3F-8D5A898D5C6B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -942,15 +942,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="spine-csharp.csproj">
-      <Project>{861A2530-85EB-A617-E9EA-17F4480B4984}</Project>
+      <Project>{6A6738B8-490F-1AE1-29D9-35748B51873D}</Project>
       <Name>spine-csharp</Name>
     </ProjectReference>
     <ProjectReference Include="spine-unity.csproj">
-      <Project>{A02162F2-DEF9-0949-325F-EBACCAECB88F}</Project>
+      <Project>{EE3B7150-F3E7-D553-B9C4-250C5E1790B5}</Project>
       <Name>spine-unity</Name>
     </ProjectReference>
     <ProjectReference Include="spine-unity-editor.csproj">
-      <Project>{AA303803-DF92-503B-0C53-FD7C192613F3}</Project>
+      <Project>{7B3E14A0-2D40-83B9-1C68-D6AA0A17A49C}</Project>
       <Name>spine-unity-editor</Name>
     </ProjectReference>
   </ItemGroup>
