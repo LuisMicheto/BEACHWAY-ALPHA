@@ -155,6 +155,7 @@ RectTransform:
   m_Children:
   - {fileID: 1503258494}
   - {fileID: 1569726097}
+  - {fileID: 1765293395}
   - {fileID: 1770151197}
   m_Father: {fileID: 1973473824}
   m_RootOrder: 0
@@ -814,7 +815,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 646045154}
-  - {fileID: 1765293395}
   m_Father: {fileID: 262389692}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -943,18 +943,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765293394}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1038848420}
-  m_Father: {fileID: 1569726097}
-  m_RootOrder: 1
+  m_Father: {fileID: 262389692}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -90}
+  m_AnchoredPosition: {x: 0, y: -46.500008}
   m_SizeDelta: {x: 240, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1765293396
@@ -1010,7 +1010,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SeleccionBici
+          m_StringArgument: Opciones
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1765293397
@@ -1084,7 +1084,7 @@ RectTransform:
   m_Children:
   - {fileID: 946791184}
   m_Father: {fileID: 262389692}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1215,7 +1215,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c4059e88f746ea74e9fe2ab370e84e8e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.504
+  m_Volume: 0.097
   m_Pitch: 1
   Loop: 1
   Mute: 0

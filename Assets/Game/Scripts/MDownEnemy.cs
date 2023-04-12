@@ -7,6 +7,8 @@ public class MDownEnemy : MonoBehaviour
     public float speed = 3f; // speed of the enemy's movement
     public bool isActive = false; // indicates whether the enemy is active or not
     public string enemyActivatorTag = "EnemyActivator"; // tag of the object that will activate the enemy
+    public Vector2 customMovement = new Vector2(-1, 0);
+
 
     void Start()
     {
@@ -17,15 +19,15 @@ public class MDownEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if the enemy is active, move it down at the specified speed
         if (isActive)
         {
-            transform.Translate(Vector2.down * speed * Time.deltaTime);
+            transform.Translate(customMovement * speed * Time.deltaTime);
             Vector3 vector3 = transform.position;
             vector3.z = vector3.y;
             transform.position = vector3;
         }
     }
+
 
     // Called when another collider enters this object's collider
     private void OnTriggerEnter2D(Collider2D other)
@@ -37,4 +39,3 @@ public class MDownEnemy : MonoBehaviour
         }
     }
 }
-
