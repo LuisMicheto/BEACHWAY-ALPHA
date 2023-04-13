@@ -209,6 +209,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad1d10985036b2b45ac9ef87b94e1249, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  referenceObject: {fileID: 6832807813828350279}
+  posY: 0
+  posYbike: 0
 --- !u!1 &6832807813828350276
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,7 +334,7 @@ SpriteRenderer:
   m_Size: {x: 3.0204685, y: 0.73}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &6832807813114246852
@@ -402,6 +405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   referenceObject: {fileID: 6832807813063137868}
   thresholdY: -1.5
+  posYbike: 0
 --- !u!114 &6832807813114246870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,8 +437,8 @@ MonoBehaviour:
   boostSlider: {fileID: 0}
   boostFillAmount: 1
   animMountain: {fileID: 0}
-  animCarretera: {fileID: 0}
-  animCiudad: {fileID: 0}
+  audioBoost: {fileID: 0}
+  audioGolpe: {fileID: 0}
 --- !u!95 &1155767733776556424
 Animator:
   serializedVersion: 4
