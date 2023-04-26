@@ -21,10 +21,10 @@ EditorBuildSettings:
     path: "Assets/Game/Scenes/BiciMonta\xF1a/Nivel_1_Mon.unity"
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
-    path: Assets/Game/Scenes/BiciCarrera/Nivel_1_Car.unity
+    path: Assets/Game/Scenes/BiciCarrera/OLD Carretera.unity
     guid: 21fe12394cd95d740855369f2c1c245c
   - enabled: 1
-    path: Assets/Game/Scenes/BiciCiudad/Nivel_1_Ciu.unity
+    path: Assets/Game/Scenes/BiciCiudad/OLD city.unity
     guid: 4212a4177b234054c8878014584b717a
   - enabled: 0
     path: 
