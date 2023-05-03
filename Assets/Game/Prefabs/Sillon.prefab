@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3897931286849735319}
   m_Layer: 0
   m_Name: Sillon
-  m_TagString: Untagged
+  m_TagString: Enenemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

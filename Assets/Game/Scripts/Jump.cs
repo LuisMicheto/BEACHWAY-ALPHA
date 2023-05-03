@@ -27,6 +27,8 @@ AudioSource audioSource;
         anim = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
         animPlayer = GameObject.Find("PlayerMountain").GetComponent<Animator>();
+        animPlayer = GameObject.Find("PlayerCarretera").GetComponent<Animator>();
+        animPlayer = GameObject.Find("PlayerCiudad").GetComponent<Animator>();
     }
 
 
@@ -37,6 +39,8 @@ AudioSource audioSource;
         //startPos = transform.localPosition;
         isJumping = true;
         anim.SetBool("BikeJump", true);
+        anim.SetBool("CiudadJump", true);
+        anim.SetBool("CarreteraJump", true);
         animPlayer.SetBool("Jump", true);
         }
 }
@@ -61,6 +65,8 @@ private void Update()
                 jumpTimer = 0f;
                 anim.SetBool("BikeJump", false);
                 animPlayer.SetBool("Jump", false);
+                anim.SetBool("CiudadJump", false);
+                anim.SetBool("CarreteraJump", false);
             }
             }                
         }

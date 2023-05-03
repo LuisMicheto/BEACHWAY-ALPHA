@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2072163473960957099}
   m_Layer: 0
   m_Name: persona con mascotas listo-02
-  m_TagString: Untagged
+  m_TagString: Enenemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,7 +131,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.334, y: 3.334}
+    oldSize: {x: 3.030909, y: 3.030909}
     newSize: {x: 16.67, y: 16.67}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

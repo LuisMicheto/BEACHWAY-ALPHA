@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1765049983612329228}
   m_Layer: 0
   m_Name: persona con mascotas listo-01
-  m_TagString: Untagged
+  m_TagString: Enenemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
