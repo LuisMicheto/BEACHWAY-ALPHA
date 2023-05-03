@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 280797960368545466}
   - component: {fileID: 280797960368545467}
   m_Layer: 0
-  m_Name: DustParticles
+  m_Name: Movement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

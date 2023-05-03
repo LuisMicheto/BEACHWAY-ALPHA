@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class Jump : MonoBehaviour
 {
+ 
 public float jumpTime = 1f;
 public float jumpHeight = 5f;
 public Transform constraintObject;
@@ -67,6 +68,7 @@ private void Update()
                 animPlayer.SetBool("Jump", false);
                 anim.SetBool("CiudadJump", false);
                 anim.SetBool("CarreteraJump", false);
+               
             }
             }                
         }
