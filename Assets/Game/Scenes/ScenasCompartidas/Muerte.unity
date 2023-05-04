@@ -432,6 +432,7 @@ GameObject:
   - component: {fileID: 797118741}
   - component: {fileID: 797118740}
   - component: {fileID: 797118739}
+  - component: {fileID: 797118742}
   m_Layer: 5
   m_Name: Main Menu
   m_TagString: Untagged
@@ -503,7 +504,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 797118740}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 797118742}
+        m_TargetAssemblyTypeName: LoadLevelV2, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MainMenu
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &797118740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,6 +555,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797118737}
   m_CullTransparentMesh: 1
+--- !u!114 &797118742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797118737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5679b262e3bdcf8498f1a69b4ccce3a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &856615992
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,6 +966,7 @@ GameObject:
   - component: {fileID: 1206095081}
   - component: {fileID: 1206095080}
   - component: {fileID: 1206095079}
+  - component: {fileID: 1206095082}
   m_Layer: 5
   m_Name: Bike selector
   m_TagString: Untagged
@@ -1012,7 +1038,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1206095080}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1206095082}
+        m_TargetAssemblyTypeName: LoadLevelV2, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SeleccionBici
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1206095080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1051,6 +1089,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206095077}
   m_CullTransparentMesh: 1
+--- !u!114 &1206095082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206095077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5679b262e3bdcf8498f1a69b4ccce3a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1324763261
 GameObject:
   m_ObjectHideFlags: 0
