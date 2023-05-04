@@ -15,6 +15,7 @@ public class JumpRamp : MonoBehaviour
     public Transform sombra;
     public Animator anim;
     public Animator animPlayer;
+    public GameObject dustParticlePrefab;
     AudioSource audioSource;
 
     void Start()
@@ -32,7 +33,10 @@ public class JumpRamp : MonoBehaviour
                 //startPos = transform.localPosition;
                 isJumping = true;
                 anim.SetBool("JumpRamp", true);
+                anim.SetBool("CiudadJumpRamp", true);
+                anim.SetBool("CarreteraumpRamp", true);
                 animPlayer.SetBool("RampJump", true);
+                
             }
         }
     }
@@ -57,8 +61,18 @@ public class JumpRamp : MonoBehaviour
                 jumpTimer = 0f;
                 anim.SetBool("JumpRamp", false);
                 animPlayer.SetBool("RampJump", false);
+                anim.SetBool("CiudadJumpRamp", false);
+                anim.SetBool("CarreteraumpRamp", false);
+                EmitDustParticle();
             }
         }
         }
+    private void EmitDustParticle()
+    {
+
+        Vector2 particlePosition = new Vector2(transform.position.x + 1f, transform.position.y - 1f);
+        GameObject dustParticles = Instantiate(dustParticlePrefab, particlePosition, Quaternion.identity);
+        Destroy(dustParticles, 5f);
+    }
 }
 

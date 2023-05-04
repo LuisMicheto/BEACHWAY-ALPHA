@@ -5,7 +5,7 @@ using UnityEngine;
 public class DustController : MonoBehaviour
 {
     [SerializeField] ParticleSystem dustParticle;
-    [SerializeField] ParticleSystem fallParticle;
+    //[SerializeField] ParticleSystem fallParticle;
 
     [Range(0, 10)]
     [SerializeField] int ocurAfterVelocity;
@@ -27,7 +27,7 @@ public class DustController : MonoBehaviour
             {
                 dustParticle.Play();
                 counter = 0;
-                fallParticle.Play();
+                //fallParticle.Play();
             }
         }
     }
