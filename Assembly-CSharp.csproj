@@ -73,6 +73,7 @@
     <Compile Include="Assets\Game\Scripts\MRightEnemy.cs" />
     <Compile Include="Assets\Game\Scripts\PositionStart.cs" />
     <Compile Include="Assets\Game\Scripts\NO USADOS\Animations.cs" />
+    <Compile Include="Assets\Game\Scripts\CreditosController.cs" />
     <Compile Include="Assets\Game\Scripts\CameraShake.cs" />
     <Compile Include="Assets\Game\Scripts\MusicManager.cs" />
     <Compile Include="Assets\Game\Scripts\NO USADOS\BikeControl.cs" />
@@ -102,7 +103,6 @@
     <Compile Include="Assets\Game\Scripts\NO USADOS\GroundDetector.cs" />
     <Compile Include="Assets\Game\Scripts\NO USADOS\OpenURL.cs" />
     <Compile Include="Assets\Game\Scripts\Teleporter.cs" />
-    <Compile Include="Assets\Game\Scripts\CreditosController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
