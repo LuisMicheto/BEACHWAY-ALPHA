@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Game/Scenes/ScenasCompartidas/Opciones.unity
     guid: 29e9ed0181fa7394ead0c80067c86ba9
   - enabled: 1
+    path: Assets/Game/Scenes/ScenasCompartidas/Credits.unity
+    guid: b93d4276b29f1ab4ba3da631dca4afd5
+  - enabled: 1
     path: Assets/Game/Scenes/ScenasCompartidas/PauseMenu.unity
     guid: 2f84011287de59745a143d3cff6fcfcc
   - enabled: 1
@@ -25,16 +28,22 @@ EditorBuildSettings:
     guid: 21fe12394cd95d740855369f2c1c245c
   - enabled: 1
     path: Assets/Game/Scenes/BiciCiudad/Nivel_1_Ciu.unity
-    guid: 4212a4177b234054c8878014584b717a
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+    guid: 27cc3f075a839404ebd2ec5941e8ecf2
   - enabled: 1
-    path: "Assets/Game/Scenes/BiciMonta\xF1a/INTRO Monta\xF1a.unity"
-    guid: 906a93d4cbd671e4f83faaca085a91f9
+    path: Assets/Game/Scenes/ScenasCompartidas/Muerte.unity
+    guid: b497518e20e2b5949b769cf18107b4a1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: ebe046802659cae45aa9a0304b541b35, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 3dae0d971cce159458a8cdb9c1033cde, type: 2}
