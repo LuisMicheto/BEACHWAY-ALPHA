@@ -29,9 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/ScenasCompartidas/Muerte.unity
     guid: b497518e20e2b5949b769cf18107b4a1
-  - enabled: 1
-    path: Assets/Game/Scenes/BiciCiudad/Nivel_1_Ciu.unity
-    guid: 4212a4177b234054c8878014584b717a
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Game/Scenes/BiciCiudad/Nivel_2_Ciu.unity
     guid: d247e868d3c2db0459c997f211571cd0
