@@ -12,7 +12,7 @@ public class LifeController : MonoBehaviour
     public DeathMode deathMode = DeathMode.Destroy;
     public Transform checkpoint;
 
-    public float deathDelay = 2.0f; // tiempo de retraso antes de la muerte
+    public float deathDelay = 2.0f;      
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class LifeController : MonoBehaviour
 
     void Update()
     {
-
+        
     }
 
     public void Damage(int amount)
@@ -39,12 +39,12 @@ public class LifeController : MonoBehaviour
     IEnumerator DeathWithDelay()
     {
         // Pausar el tiempo en la escena
-        Time.timeScale = 0f;
+        Time.timeScale = 0f;        
 
         yield return new WaitForSecondsRealtime(deathDelay);
 
         // Reanudar el tiempo en la escena
-        Time.timeScale = 1f;
+        Time.timeScale = 1f;        
 
         Death();
     }
@@ -55,7 +55,7 @@ public class LifeController : MonoBehaviour
         {
             life = life_max;
             transform.position = checkpoint.position;
-            Debug.Log("Muerto");
+            Debug.Log("Muerto. bikeRigidbody.simulated: " + bikeRigidbody.simulated);
         }
         if (deathMode == DeathMode.SceneReload)
         {

@@ -10,6 +10,7 @@ TagManager:
   - BoostObject
   - LateEnemyActivator
   - Enenemy
+  - Enemy
   layers:
   - Default
   - TransparentFX

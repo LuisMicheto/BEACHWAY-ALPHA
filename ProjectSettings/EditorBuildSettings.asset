@@ -29,27 +29,30 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/ScenasCompartidas/Muerte.unity
     guid: b497518e20e2b5949b769cf18107b4a1
+  - enabled: 1
+    path: Assets/Game/Scenes/BiciCiudad/Nivel_1_Ciu.unity
+    guid: 4212a4177b234054c8878014584b717a
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Game/Scenes/BiciCiudad/Nivel_2_Ciu.unity
-    guid: d247e868d3c2db0459c997f211571cd0
-  - enabled: 1
-    path: Assets/Game/Scenes/BiciCarrera/Nivel_2_Car.unity
-    guid: 87a17bb9dcc557d47a1fa0c5b8d568bd
-  - enabled: 1
-    path: Assets/Game/Scenes/BiciCarrera/Nivel_3_Car.unity
-    guid: 3a5cddada89f13845b4e0ff7441e8cec
-  - enabled: 1
-    path: Assets/Game/Scenes/BiciCiudad/Nivel_3_Ciu.unity
-    guid: 2455577cd5dea85468e32f3ec94d5d5b
-  - enabled: 1
-    path: "Assets/Game/Scenes/BiciMonta\xF1a/Nivel_2_Mon.unity"
-    guid: a544b6971bee85b48a1647a8ef4fc849
-  - enabled: 1
-    path: "Assets/Game/Scenes/BiciMonta\xF1a/Nivel_3_Mon.unity"
-    guid: 438d2e9d8da0d5e4488b70e7a7bf2854
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: ebe046802659cae45aa9a0304b541b35, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 3dae0d971cce159458a8cdb9c1033cde, type: 2}

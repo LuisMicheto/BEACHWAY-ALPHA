@@ -1,4 +1,3 @@
-using Spine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,8 +17,12 @@ public class Jump : MonoBehaviour
     public Button botonSalto;
     public Animator anim;
     public Animator animPlayer;
-    public AudioSource audioSource;
+    AudioSource audioSource;
+    public AudioClip audioFall;
+    public AudioClip audioFuerza;
     public GameObject dustParticlePrefab; // Prefab de la partícula de polvo
+
+    public Button jumpButton; // Referencia al botón de salto
 
     private void Start()
     {
@@ -28,6 +31,12 @@ public class Jump : MonoBehaviour
         animPlayer = GameObject.Find("PlayerMountain").GetComponent<Animator>();
         animPlayer = GameObject.Find("PlayerCarretera").GetComponent<Animator>();
         animPlayer = GameObject.Find("PlayerCiudad").GetComponent<Animator>();
+
+        // Obtener referencia al botón de salto
+        jumpButton = GetComponent<Button>();
+
+        // Agregar un listener para el evento On Click del botón
+        jumpButton.onClick.AddListener(JumpButton);
     }
 
     public void JumpButton()
@@ -39,6 +48,7 @@ public class Jump : MonoBehaviour
             anim.SetBool("CiudadJump", true);
             anim.SetBool("CarreteraJump", true);
             animPlayer.SetBool("Jump", true);
+            audioSource.PlayOneShot(audioFuerza);
         }
     }
 
@@ -64,8 +74,9 @@ public class Jump : MonoBehaviour
                 animPlayer.SetBool("Jump", false);
                 anim.SetBool("CiudadJump", false);
                 anim.SetBool("CarreteraJump", false);
-                EmitDustParticle();              
-                
+                EmitDustParticle();
+                audioSource.PlayOneShot(audioFall);
+
             }
         }
     }
@@ -84,11 +95,12 @@ public class Jump : MonoBehaviour
 
     private void EmitDustParticle()
     {
-        
-        Vector2 particlePosition = new Vector2(transform.position.x + 1f, transform.position.y - 1f);            
-        GameObject dustParticles = Instantiate(dustParticlePrefab, particlePosition, Quaternion.identity);        
-        Destroy(dustParticles, 5f);
+
+        Vector2 particlePosition = new Vector2(transform.position.x + 1f, transform.position.y - 1f);
+        GameObject dustParticles = Instantiate(dustParticlePrefab, particlePosition, Quaternion.identity);
+        Destroy(dustParticles, 2f);
     }
 }
+
 
 
