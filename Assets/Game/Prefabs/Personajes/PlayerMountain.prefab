@@ -84,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 033c36c73c679a94fb2cbf0bd8c30520, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.49019608}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -450,6 +450,7 @@ MonoBehaviour:
   audioFall: {fileID: 8300000, guid: cbf730bafa04fb84e867b418e88d6e77, type: 3}
   audioFuerza: {fileID: 8300000, guid: 1a9ed0791c4b331479b495debade7568, type: 3}
   dustParticlePrefab: {fileID: 8569499774568091447, guid: 97f1bad05b5867a40a8392b4dd32ac0f, type: 3}
+  jumpButton: {fileID: 0}
 --- !u!114 &4938554166393605426
 MonoBehaviour:
   m_ObjectHideFlags: 0
