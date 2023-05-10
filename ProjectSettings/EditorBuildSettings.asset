@@ -30,8 +30,26 @@ EditorBuildSettings:
     path: Assets/Game/Scenes/ScenasCompartidas/Muerte.unity
     guid: b497518e20e2b5949b769cf18107b4a1
   - enabled: 1
+    path: Assets/Game/Scenes/BiciCarrera/Nivel_1_Car.unity
+    guid: d320bddc895745046a55d78da6e0c80f
+  - enabled: 1
     path: Assets/Game/Scenes/BiciCiudad/Nivel_1_Ciu.unity
-    guid: 4212a4177b234054c8878014584b717a
+    guid: 27cc3f075a839404ebd2ec5941e8ecf2
+  - enabled: 1
+    path: Assets/Game/Scenes/BiciCiudad/Nivel_2_Ciu.unity
+    guid: 9edc3349488e6bf4da1365df5b884226
+  - enabled: 1
+    path: "Assets/Game/Scenes/BiciMonta\xF1a/Nivel_2_Mon.unity"
+    guid: ec4d9d73ea830c44683585f2ac634c2b
+  - enabled: 1
+    path: Assets/Game/Scenes/ScenasCompartidas/INTRO.unity
+    guid: 41e669b6975cae645801bd04070e4139
+  - enabled: 1
+    path: Assets/Game/Scenes/ScenasCompartidas/THEEND.unity
+    guid: 9a55ef8243878284c82378a3c6afd8f3
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
