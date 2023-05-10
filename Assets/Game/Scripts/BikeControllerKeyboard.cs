@@ -14,11 +14,12 @@ public class BikeControllerKeyboard : MonoBehaviour
     private string BoostObjectTag = "BoostObject";
     public float boostFillAmount;
     public Animator animMountain;
-    //public Animator animCarretera;
-    //public Animator animCiudad;
+    public Animator animCarretera;
+    public Animator animCiudad;
     AudioSource audioSource;
     public AudioClip audioBoost;
     public AudioClip audioGolpe;
+    public GameObject crashParticlePrefab;
 
     void Start()
     {
@@ -27,14 +28,17 @@ public class BikeControllerKeyboard : MonoBehaviour
         boostSlider.maxValue = 1f;
         boostSlider.value = 0;
         animMountain = GameObject.Find("BikeMountain").GetComponent<Animator>();
-        //animCarretera = GameObject.Find("BikeCarretera").GetComponent<Animator>();
-        //animCiudad = GameObject.Find("BikeCiudad").GetComponent<Animator>();
+        animCarretera = GameObject.Find("BikeCarretera").GetComponent<Animator>();
+        animCiudad = GameObject.Find("BikeCiudad").GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
 
     }
 
     void Update()
-    {        
+    {
+        Vector3 vector3 = transform.position;
+        vector3.z = vector3.y;
+        transform.position = vector3;
         if (Input.GetKeyDown(KeyCode.W))
         {
             bikeRigidbody.velocity = Vector3.down * -moveUpDown;
@@ -54,21 +58,17 @@ public class BikeControllerKeyboard : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && boostSlider.value == 1f)
         {
             Boost();            
-        }
-
-        Vector3 vector3 = transform.position;
-        vector3.z = vector3.y;
-        transform.position = vector3;
-        //animCarretera.SetBool("BikeAni", true);
-        //animCiudad.SetBool("BikeAni", true);
+        }        
+        animCarretera.SetBool("CarreteraMove", true);
+        animCiudad.SetBool("CiudadMove", true);
         animMountain.SetBool("BikeAni", true);
     }
 
     void FixedUpdate()
     {
-        bikeRigidbody.velocity = new Vector3(moveSpeed, bikeRigidbody.velocity.y, Time.deltaTime * moveSpeed);
+        bikeRigidbody.velocity = new Vector3(moveSpeed, bikeRigidbody.velocity.y, Time.deltaTime * moveSpeed);        
     }
-
+    
     public void Boost()
     {
         if (boostCoroutine != null)
@@ -76,8 +76,8 @@ public class BikeControllerKeyboard : MonoBehaviour
             StopCoroutine(boostCoroutine);            
         }
         boostCoroutine = StartCoroutine(BoostForDuration(boostDuration));
-        //animCarretera.SetBool("Boost", true);
-        //animCiudad.SetBool("Boost", true);
+        animCarretera.SetBool("CarreteraBoost", true);
+        animCiudad.SetBool("CiudadBoost", true);
         animMountain.SetBool("Boost", true);
         audioSource.PlayOneShot(audioBoost);
     }
@@ -96,8 +96,8 @@ public class BikeControllerKeyboard : MonoBehaviour
         moveSpeed = initialSpeed;
         boostSlider.value = 0f;
         boostCoroutine = null;
-        //animCarretera.SetBool("Boost", false);
-        //animCiudad.SetBool("Boost", false);
+        animCarretera.SetBool("CarreteraBoost", false);
+        animCiudad.SetBool("CiudadBoost", false);
         animMountain.SetBool("Boost", false);
     }
 
@@ -115,7 +115,24 @@ public class BikeControllerKeyboard : MonoBehaviour
         if (collision.CompareTag("Enenemy"))
         {
             audioSource.PlayOneShot(audioGolpe);
+            EmitDustParticle();
         }
+    }
+    private void EmitDustParticle()
+    {
+        Vector2 particlePosition = new Vector2(transform.position.x + 0f, transform.position.y + 0f);
+        GameObject dustParticles = Instantiate(crashParticlePrefab, particlePosition, Quaternion.identity, null);
+        float destroyTime = Time.realtimeSinceStartup + 5f;
+        StartCoroutine(DestroyAfterTime(dustParticles, destroyTime));
+    }
+
+    private IEnumerator DestroyAfterTime(GameObject obj, float time)
+    {
+        while (Time.realtimeSinceStartup < time)
+        {
+            yield return null;
+        }
+        Destroy(obj);
     }
     public void MoveUp()
     {

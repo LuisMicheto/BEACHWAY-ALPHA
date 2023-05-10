@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DisableColliderOnJump : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class DisableColliderOnJump : MonoBehaviour
     public Transform referenceObject;
     public float posY;
     public float posYbike;
+    public Button botonSalto;
 
     void Start()
     {
@@ -20,10 +22,12 @@ public class DisableColliderOnJump : MonoBehaviour
         if (referenceObject.transform.position.y < posYbike)
         {
             coll2D.enabled = false;
+            botonSalto.interactable = false;
         }
         if (referenceObject.transform.position.y > posYbike)
         {
             coll2D.enabled = true;
+            botonSalto.interactable = true;
         }        
     }
 }

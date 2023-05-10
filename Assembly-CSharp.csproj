@@ -65,6 +65,7 @@
     <Compile Include="Assets\Game\Scripts\NO USADOS\UpDown.cs" />
     <Compile Include="Assets\Game\Scripts\NO USADOS\JumpController.cs" />
     <Compile Include="Assets\Game\Scripts\DustController.cs" />
+    <Compile Include="Assets\Game\Scripts\DestroyObjectAfterTime.cs" />
     <Compile Include="Assets\Game\Scripts\NO USADOS\LoadLevel.cs" />
     <Compile Include="Assets\Game\Scripts\NO USADOS\BotellaSlider.cs" />
     <Compile Include="Assets\Game\Scripts\Chekpoint.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\Game\Scripts\MRightEnemy.cs" />
     <Compile Include="Assets\Game\Scripts\PositionStart.cs" />
     <Compile Include="Assets\Game\Scripts\NO USADOS\Animations.cs" />
+    <Compile Include="Assets\Game\Scripts\CreditosController.cs" />
     <Compile Include="Assets\Game\Scripts\CameraShake.cs" />
     <Compile Include="Assets\Game\Scripts\MusicManager.cs" />
     <Compile Include="Assets\Game\Scripts\NO USADOS\BikeControl.cs" />
@@ -110,6 +112,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Game\Sprites\archivoNombres.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />

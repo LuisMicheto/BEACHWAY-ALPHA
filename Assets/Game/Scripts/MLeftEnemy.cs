@@ -17,23 +17,19 @@ public class MLeftEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if the enemy is active, move it horizontally at the specified speed
         if (isActive)
         {
-            transform.Translate(Vector2.left * horizontalSpeed * Time.deltaTime); // move left
-            // transform.Translate(Vector2.right * horizontalSpeed * Time.deltaTime); // move right
+            transform.Translate(Vector2.left * horizontalSpeed * Time.deltaTime);
             Vector3 vector3 = transform.position;
             vector3.z = vector3.y;
             transform.position = vector3;
         }
     }
 
-    // Called when another collider enters this object's collider
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag(enemyActivatorTag))
         {
-            // If the collided object has the specified tag, activate the enemy's horizontal movement
             isActive = true;
         }
     }

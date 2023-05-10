@@ -16,12 +16,12 @@ public class MRightEnemy : MonoBehaviour
     }
     // Update is called once per frame
     void Update()
+
     {
         // if the enemy is active, move it horizontally at the specified speed
         if (isActive)
         {
-            transform.Translate(Vector2.right * horizontalSpeed * Time.deltaTime); // move left
-            // transform.Translate(Vector2.right * horizontalSpeed * Time.deltaTime); // move right
+            transform.Translate(Vector2.right * horizontalSpeed * Time.deltaTime);           
             Vector3 vector3 = transform.position;
             vector3.z = vector3.y;
             transform.position = vector3;

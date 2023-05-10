@@ -6,6 +6,7 @@ public class DustController : MonoBehaviour
 {
     [SerializeField] ParticleSystem dustParticle;
     
+
     [Range(0, 10)]
     [SerializeField] int ocurAfterVelocity;
     
@@ -26,7 +27,9 @@ public class DustController : MonoBehaviour
             {
                 dustParticle.Play();
                 counter = 0;
+                
             }
-        }
+        }        
     }
+    
 }
