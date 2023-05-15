@@ -23,12 +23,4 @@ public class LoadLevelV2 : MonoBehaviour
     {
         canvasdesactive.SetActive(false);
     }
-    public void PauseGame()
-    {
-        Time.timeScale = 0f; // Set the time scale to 0 to pause the game
-    }
-    public void ResumeGame()
-    {
-        Time.timeScale = 1f; // Set the time scale back to 1 to resume the game
-    }
 }
