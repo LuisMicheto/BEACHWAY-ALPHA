@@ -31,7 +31,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3515329274716164019}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0008, y: 1.25, z: -0.01}
+  m_LocalPosition: {x: -0.0008, y: 1.1, z: -0.01}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -80,12 +80,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 245a53d77dbcbf241acc83e51d5c580b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7eb2d228f2093cb4cb92c5cea42b247a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.05, y: 4.6944447}
+  m_Size: {x: 5.161111, y: 4.711111}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -152,8 +152,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0040433235, y: -1.1851989}
-  m_Size: {x: 4.0612054, y: 1.6301844}
+  m_Offset: {x: -0.0071473317, y: -1.0020937}
+  m_Size: {x: 3.8687959, y: 1.4501843}
   m_Direction: 1
 --- !u!95 &3515329273968343345
 Animator:
@@ -335,6 +335,7 @@ GameObject:
   - component: {fileID: 3515329273919329727}
   - component: {fileID: 3515329273919329713}
   - component: {fileID: 1487165237116252909}
+  - component: {fileID: 3771652099636318182}
   m_Layer: 0
   m_Name: PlayerCarretera
   m_TagString: Player
@@ -401,15 +402,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1100506054, guid: ec0bceaed9fd9414aa542e794fa70204, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 033c36c73c679a94fb2cbf0bd8c30520, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.49019608}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.0204685, y: 0.73}
+  m_Size: {x: 1.96, y: 0.46}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &3515329273919329723
@@ -440,7 +441,7 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3515329275168255245}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -621,6 +622,28 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!68 &3771652099636318182
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3515329275168255245}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.892627, y: 0.0029125507}
+  - {x: 0.9130142, y: 0}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &3515329275363258939
 GameObject:
   m_ObjectHideFlags: 0

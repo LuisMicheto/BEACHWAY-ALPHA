@@ -7,12 +7,12 @@ public class DeactivateCollider : MonoBehaviour
     public Transform referenceObject;
 
     public float thresholdY;
-    private CapsuleCollider2D coll2D;
+    private EdgeCollider2D coll2D;
     public float posYbike;
 
     private void Start()
     {
-        coll2D = GetComponent<CapsuleCollider2D>();        
+        coll2D = GetComponent<EdgeCollider2D>();        
     }
 
     private void Update()
