@@ -62,7 +62,7 @@ public class Jump : MonoBehaviour
             float y = Mathf.Sin(Mathf.PI * t) * jumpHeight;
             Vector3 newPos = new Vector3(sombra.position.x, sombra.position.y + y, sombra.position.z) + startPos;
 
-            newPos.x = Bici.transform.position.x;
+            newPos.x = constraintObject.position.x;
 
             transform.position = newPos;
 
@@ -95,6 +95,7 @@ public class Jump : MonoBehaviour
 
     private void EmitDustParticle()
     {
+
         Vector2 particlePosition = new Vector2(transform.position.x + 1f, transform.position.y - 1f);
         GameObject dustParticles = Instantiate(dustParticlePrefab, particlePosition, Quaternion.identity);
         Destroy(dustParticles, 2f);

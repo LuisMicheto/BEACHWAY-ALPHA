@@ -6,6 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
+<<<<<<< HEAD
       value: 01050d515004515e5f5e0970127606444f154f7c752b206175784d64e0b43569
       flags: 0
     RecentlyUsedSceneGuid-1:
@@ -28,6 +29,36 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-7:
       value: 5303565204575a095d0c5c2113740f444416417e792d7e677c784d67b2b1623a
+=======
+      value: 5057575e04560d5f5c5d097413740c4414161e2f2a7e7365792d4b35e6e2373c
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 570305540401580c5a0c5e7144730a44154f407d7478776478714931b5b16339
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 5a54500556065d025956542746215944121649797a7d2236782b456bb6b2666e
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 5b020d0707500f095f0a5e2448725a44464e4c292f7e25672b784b64b2e63560
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 0108070251075e0d0f5c552441225d4414164b2e2d7e7561292a1c67e3e6306d
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 5108515f0051590a555f0a234770064413161c7a2f7076607b7e1e6bb4e23561
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 51570c525504580955590827457a08444316497e7f2c75332b2f4b35e1e6373b
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 51090d50540c5b5f0c0d5a7412775e4440154d297e2b7160757d4560b2e63061
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 5a50015300535109595d547548710744154f4a797b7027632e7f1c35e6b8326b
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 0702065607510d585557597544760f4440164d7f287f7e342c7f1863e1b8643e
+>>>>>>> parent of 772140b (leo Casita)
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650

@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 4938554166344606128}
   - component: {fileID: 4938554166344606134}
   - component: {fileID: 4938554166344606133}
+  - component: {fileID: 4938554166344606132}
   - component: {fileID: 4938554166344606131}
   - component: {fileID: 4938554166344606130}
   - component: {fileID: 4938554166344606143}
   - component: {fileID: 4938554166344606135}
   - component: {fileID: 5250414250183356938}
-  - component: {fileID: 3783422897350765354}
   m_Layer: 0
   m_Name: PlayerMountain
   m_TagString: Player
@@ -115,6 +115,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!70 &4938554166344606132
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4938554165429262595}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: d5b9ee8ef7ef50f40b015c0d21660352, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.011763724, y: 0.24949864}
+  m_Size: {x: 1.9976441, y: 0.5152443}
+  m_Direction: 1
 --- !u!114 &4938554166344606131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 1
-  life_max: 3
+  life_max: 1
   deathMode: 2
   checkpoint: {fileID: 0}
   deathDelay: 1
@@ -287,28 +303,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!68 &3783422897350765354
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4938554165429262595}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.92346424, y: 0.0080765635}
-  - {x: 0.92884827, y: 0.0080765635}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!1 &4938554165489976885
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4938554166990453693}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0008, y: 1, z: -0.01}
+  m_LocalPosition: {x: -0.0008, y: 1.25, z: -0.01}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -420,12 +414,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cb290ab62d986d7419e1948f6328e42f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e0cf352764f0f484fb32fe333c17bc29, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.05, y: 4.5555553}
+  m_Size: {x: 5.05, y: 4.6944447}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -492,8 +486,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00034405338, y: -0.9176508}
-  m_Size: {x: 3.749018, y: 1.4186449}
+  m_Offset: {x: -0.0040433235, y: -1.1851989}
+  m_Size: {x: 4.0612054, y: 1.6301844}
   m_Direction: 1
 --- !u!95 &4938554166393605439
 Animator:
@@ -541,7 +535,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1b63240cfd37cfc4599a85873d78aa1f, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
