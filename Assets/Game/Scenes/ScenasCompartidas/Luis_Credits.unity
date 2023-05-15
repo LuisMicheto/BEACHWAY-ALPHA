@@ -582,11 +582,15 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
 <<<<<<< HEAD:Assets/Game/Scenes/ScenasCompartidas/Luis_Credits.unity
+<<<<<<< HEAD:Assets/Game/Scenes/ScenasCompartidas/Luis_Credits.unity
 <<<<<<< HEAD:Assets/Game/Scenes/ScenasCompartidas/Credits.unity
   m_AnchoredPosition: {x: 0, y: 213}
 =======
   m_AnchoredPosition: {x: -742, y: -473}
 >>>>>>> ced800369a547b26b1bfd51505124cbac3bba082:Assets/Game/Scenes/ScenasCompartidas/Luis_Credits.unity
+=======
+  m_AnchoredPosition: {x: 0, y: 228}
+>>>>>>> parent of 772140b (leo Casita):Assets/Game/Scenes/ScenasCompartidas/Credits.unity
 =======
   m_AnchoredPosition: {x: 0, y: 228}
 >>>>>>> parent of 772140b (leo Casita):Assets/Game/Scenes/ScenasCompartidas/Credits.unity

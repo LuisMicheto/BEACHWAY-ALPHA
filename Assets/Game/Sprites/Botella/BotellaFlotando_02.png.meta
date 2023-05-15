@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Game/Sprites/Botella/BotellaFlotando_02.png.meta
 guid: 67c9206fbda94c442a389144f3e09593
+========
+guid: 60f45debaf8f02e4c8b60641756d5864
+>>>>>>>> parent of 772140b (leo Casita):Assets/Game/Sprites/Botella/BotellaFlotando_01.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

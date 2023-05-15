@@ -9,6 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -35,6 +36,8 @@ MonoBehaviour:
   m_Enabled: 1
 =======
 >>>>>>> parent of 772140b (leo Casita)
+=======
+>>>>>>> parent of 772140b (leo Casita)
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -46,6 +49,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Title: Console
   m_RootView: {fileID: 9}
@@ -111,6 +115,14 @@ MonoBehaviour:
   m_Maximized: 1
 --- !u!114 &2
 >>>>>>> parent of 772140b (leo Casita)
+=======
+  m_Title: Project
+  m_RootView: {fileID: 6}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
+--- !u!114 &2
+>>>>>>> parent of 772140b (leo Casita)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,8 +136,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 12}
   - {fileID: 6}
+=======
+  - {fileID: 9}
+  - {fileID: 3}
+>>>>>>> parent of 772140b (leo Casita)
 =======
   - {fileID: 9}
   - {fileID: 3}
@@ -140,8 +157,13 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 16
 --- !u!114 &6
+=======
+  controlID: 123
+--- !u!114 &3
+>>>>>>> parent of 772140b (leo Casita)
 =======
   controlID: 123
 --- !u!114 &3
@@ -156,7 +178,11 @@ MonoBehaviour:
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: 
+=======
+  m_Name: RecorderWindow
+>>>>>>> parent of 772140b (leo Casita)
 =======
   m_Name: RecorderWindow
 >>>>>>> parent of 772140b (leo Casita)
@@ -166,6 +192,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1467
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 453
     height: 947
@@ -185,10 +212,22 @@ MonoBehaviour:
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 16}
+=======
+    width: 493
+    height: 939
+  m_MinSize: {x: 561, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 12}
+  m_Panes:
+  - {fileID: 16}
+>>>>>>> parent of 772140b (leo Casita)
   - {fileID: 12}
   m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &4
+<<<<<<< HEAD
+>>>>>>> parent of 772140b (leo Casita)
+=======
 >>>>>>> parent of 772140b (leo Casita)
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -207,8 +246,13 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 363
     height: 561
+=======
+    width: 352
+    height: 556
+>>>>>>> parent of 772140b (leo Casita)
 =======
     width: 352
     height: 556
@@ -221,7 +265,11 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &8
+=======
+--- !u!114 &5
+>>>>>>> parent of 772140b (leo Casita)
 =======
 --- !u!114 &5
 >>>>>>> parent of 772140b (leo Casita)
@@ -240,6 +288,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     y: 561
     width: 1467
@@ -263,11 +312,25 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 15}
   - {fileID: 20}
+=======
+    y: 556
+    width: 1427
+    height: 383
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 20}
+>>>>>>> parent of 772140b (leo Casita)
   - {fileID: 14}
   - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &6
+<<<<<<< HEAD
+>>>>>>> parent of 772140b (leo Casita)
+=======
 >>>>>>> parent of 772140b (leo Casita)
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -282,9 +345,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 10}
   - {fileID: 5}
   - {fileID: 11}
+=======
+  - {fileID: 7}
+  - {fileID: 2}
+  - {fileID: 8}
+>>>>>>> parent of 772140b (leo Casita)
 =======
   - {fileID: 7}
   - {fileID: 2}
@@ -303,7 +372,11 @@ MonoBehaviour:
   m_UseBottomView: 1
   m_BottomViewHeight: 20
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &10
+=======
+--- !u!114 &7
+>>>>>>> parent of 772140b (leo Casita)
 =======
 --- !u!114 &7
 >>>>>>> parent of 772140b (leo Casita)
@@ -329,7 +402,11 @@ MonoBehaviour:
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &11
+=======
+--- !u!114 &8
+>>>>>>> parent of 772140b (leo Casita)
 =======
 --- !u!114 &8
 >>>>>>> parent of 772140b (leo Casita)
@@ -353,6 +430,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &12
 MonoBehaviour:
@@ -383,6 +461,9 @@ MonoBehaviour:
 =======
 --- !u!114 &9
 >>>>>>> parent of 772140b (leo Casita)
+=======
+--- !u!114 &9
+>>>>>>> parent of 772140b (leo Casita)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -396,8 +477,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 7}
   - {fileID: 14}
+=======
+  - {fileID: 10}
+  - {fileID: 5}
+>>>>>>> parent of 772140b (leo Casita)
 =======
   - {fileID: 10}
   - {fileID: 5}
@@ -407,6 +493,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1467
     height: 561
   m_MinSize: {x: 200, y: 100}
@@ -415,6 +502,8 @@ MonoBehaviour:
   controlID: 18
 --- !u!114 &14
 =======
+=======
+>>>>>>> parent of 772140b (leo Casita)
     width: 1427
     height: 939
   m_MinSize: {x: 200, y: 200}
@@ -447,6 +536,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 125
 --- !u!114 &11
+<<<<<<< HEAD
+>>>>>>> parent of 772140b (leo Casita)
+=======
 >>>>>>> parent of 772140b (leo Casita)
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -464,6 +556,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 363
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 1104
     height: 561
@@ -485,6 +578,18 @@ MonoBehaviour:
   - {fileID: 19}
   m_Selected: 1
   m_LastSelected: 0
+=======
+    width: 1075
+    height: 556
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 18}
+  - {fileID: 19}
+  m_Selected: 1
+  m_LastSelected: 0
+>>>>>>> parent of 772140b (leo Casita)
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -608,6 +713,9 @@ MonoBehaviour:
   m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
+<<<<<<< HEAD
+>>>>>>> parent of 772140b (leo Casita)
+=======
 >>>>>>> parent of 772140b (leo Casita)
 --- !u!114 &15
 MonoBehaviour:
@@ -631,9 +739,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 634
     width: 1466
     height: 365
+=======
+    y: 629
+    width: 1426
+    height: 362
+>>>>>>> parent of 772140b (leo Casita)
 =======
     y: 629
     width: 1426
@@ -657,7 +771,11 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Game/Scenes/ScenasCompartidas
+=======
+    - Assets/Game/Scenes/BiciCarrera
+>>>>>>> parent of 772140b (leo Casita)
 =======
     - Assets/Game/Scenes/BiciCarrera
 >>>>>>> parent of 772140b (leo Casita)
@@ -667,9 +785,15 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Game/Scenes/ScenasCompartidas
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Documents\BEACHWAY-ALPHA
+=======
+  - Assets/Game/Scenes/BiciCarrera
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\PIATTIFADDALEOPOLDO\Documents\BEACHWAY-ALPHA
+>>>>>>> parent of 772140b (leo Casita)
 =======
   - Assets/Game/Scenes/BiciCarrera
   m_LastFoldersGridSize: -1
@@ -680,9 +804,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 806e0000
     m_LastClickedID: 28288
     m_ExpandedIDs: 000000000a6e00000c6e00000e6e0000106e0000126e0000146e0000166e0000186e00001a6e00001c6e00001e6e0000206e0000226e0000246e0000266e0000286e0000
+=======
+    m_SelectedIDs: 4c710000
+    m_LastClickedID: 29004
+    m_ExpandedIDs: 0000000002710000047100000671000000ca9a3b
+>>>>>>> parent of 772140b (leo Casita)
 =======
     m_SelectedIDs: 4c710000
     m_LastClickedID: 29004
@@ -704,7 +834,11 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 0}
+=======
+      m_ClientGUIView: {fileID: 5}
+>>>>>>> parent of 772140b (leo Casita)
 =======
       m_ClientGUIView: {fileID: 5}
 >>>>>>> parent of 772140b (leo Casita)
@@ -720,7 +854,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000000a6e00000c6e00000e6e0000106e0000126e0000146e0000166e0000186e00001a6e00001c6e00001e6e0000206e0000226e0000246e0000266e0000286e0000
+=======
+    m_ExpandedIDs: 00000000027100000471000006710000
+>>>>>>> parent of 772140b (leo Casita)
 =======
     m_ExpandedIDs: 00000000027100000471000006710000
 >>>>>>> parent of 772140b (leo Casita)
@@ -749,8 +887,13 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 866f0000
     m_LastClickedInstanceID: 28550
+=======
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+>>>>>>> parent of 772140b (leo Casita)
 =======
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
@@ -773,7 +916,11 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 0}
+=======
+      m_ClientGUIView: {fileID: 5}
+>>>>>>> parent of 772140b (leo Casita)
 =======
       m_ClientGUIView: {fileID: 5}
 >>>>>>> parent of 772140b (leo Casita)
@@ -852,8 +999,13 @@ MonoBehaviour:
     x: 0
     y: 73
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 362
     height: 540
+=======
+    width: 351
+    height: 535
+>>>>>>> parent of 772140b (leo Casita)
 =======
     width: 351
     height: 535
@@ -866,9 +1018,15 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 866f0000
       m_LastClickedID: 0
       m_ExpandedIDs: b0f1fffff6f1ffff3ef2ffff96f2ffffe2f2ffff2ef3ffffb8f3ffff00f4ffff6af4ffffb0f4fffff6f4ffff3ef5ffff10f6ffff5ef6ffffc6faffff
+=======
+      m_SelectedIDs: 82770000
+      m_LastClickedID: 0
+      m_ExpandedIDs: c8f1ffff1af2ffff5cf2ffff9ef2ffff18f3ffff5cf3ffff2efaffff
+>>>>>>> parent of 772140b (leo Casita)
 =======
       m_SelectedIDs: 82770000
       m_LastClickedID: 0
@@ -890,7 +1048,11 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_ClientGUIView: {fileID: 0}
+=======
+        m_ClientGUIView: {fileID: 4}
+>>>>>>> parent of 772140b (leo Casita)
 =======
         m_ClientGUIView: {fileID: 4}
 >>>>>>> parent of 772140b (leo Casita)
@@ -924,8 +1086,13 @@ MonoBehaviour:
     x: 363
     y: 73
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1102
     height: 540
+=======
+    width: 1073
+    height: 535
+>>>>>>> parent of 772140b (leo Casita)
 =======
     width: 1073
     height: 535
@@ -1154,9 +1321,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 13.584565, y: -0.016465083, z: 0.01603777}
     speed: 2
     m_Value: {x: 13.584565, y: -0.016465083, z: 0.01603777}
+=======
+    m_Target: {x: 205.5969, y: 14.243364, z: 21.697624}
+    speed: 2
+    m_Value: {x: 1.6824983, y: -1.3603379, z: 2.1003408}
+>>>>>>> parent of 772140b (leo Casita)
 =======
     m_Target: {x: 205.5969, y: 14.243364, z: 21.697624}
     speed: 2
@@ -1213,9 +1386,15 @@ MonoBehaviour:
     m_Value: {x: -0.000000006657127, y: 0.00000006869945, z: -0.000000016071727, w: -0.99999994}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 20.2237
     speed: 2
     m_Value: 20.2237
+=======
+    m_Target: 47.0491
+    speed: 2
+    m_Value: 7.3815627
+>>>>>>> parent of 772140b (leo Casita)
 =======
     m_Target: 47.0491
     speed: 2
@@ -1266,15 +1445,21 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 2051
     y: 57
     width: 1102
     height: 540
 =======
+=======
+>>>>>>> parent of 772140b (leo Casita)
     x: 352
     y: 73
     width: 1073
     height: 535
+<<<<<<< HEAD
+>>>>>>> parent of 772140b (leo Casita)
+=======
 >>>>>>> parent of 772140b (leo Casita)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1323,15 +1508,21 @@ MonoBehaviour:
       x: 0
       y: 21
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 1102
       height: 519
     m_Scale: {x: 0.48055556, y: 0.48055556}
     m_Translation: {x: 551, y: 259.5}
 =======
+=======
+>>>>>>> parent of 772140b (leo Casita)
       width: 1073
       height: 514
     m_Scale: {x: 0.47592592, y: 0.47592592}
     m_Translation: {x: 536.5, y: 257}
+<<<<<<< HEAD
+>>>>>>> parent of 772140b (leo Casita)
+=======
 >>>>>>> parent of 772140b (leo Casita)
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1340,6 +1531,7 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       x: -1146.5896
       y: -540
       width: 2293.1792
@@ -1347,6 +1539,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.48055556
   m_LastWindowPixelSize: {x: 1102, y: 540}
+=======
+      x: -1127.2762
+      y: -540
+      width: 2254.5525
+      height: 1080
+    m_MinimalGUI: 1
+  m_defaultScale: 0.47592592
+  m_LastWindowPixelSize: {x: 1073, y: 535}
+>>>>>>> parent of 772140b (leo Casita)
 =======
       x: -1127.2762
       y: -540
@@ -1384,7 +1585,11 @@ MonoBehaviour:
     x: 0
     y: 634
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1466
+=======
+    width: 1464
+>>>>>>> parent of 772140b (leo Casita)
 =======
     width: 1464
 >>>>>>> parent of 772140b (leo Casita)

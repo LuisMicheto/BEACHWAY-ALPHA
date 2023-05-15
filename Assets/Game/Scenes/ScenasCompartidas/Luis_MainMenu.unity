@@ -525,6 +525,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 2
 <<<<<<< HEAD:Assets/Game/Scenes/ScenasCompartidas/Luis_MainMenu.unity
+<<<<<<< HEAD:Assets/Game/Scenes/ScenasCompartidas/Luis_MainMenu.unity
     m_MaxSize: 44
 =======
     m_Font: {fileID: 12800000, guid: c1546d101b37fe34881b262fb16ff7ad, type: 3}
@@ -534,6 +535,9 @@ MonoBehaviour:
     m_MinSize: 0
     m_MaxSize: 40
 >>>>>>> ced800369a547b26b1bfd51505124cbac3bba082:Assets/Game/Scenes/ScenasCompartidas/Luis_MainMenu.unity
+=======
+    m_MaxSize: 40
+>>>>>>> parent of 772140b (leo Casita):Assets/Game/Scenes/ScenasCompartidas/MainMenu.unity
 =======
     m_MaxSize: 40
 >>>>>>> parent of 772140b (leo Casita):Assets/Game/Scenes/ScenasCompartidas/MainMenu.unity
@@ -613,6 +617,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: c1546d101b37fe34881b262fb16ff7ad, type: 3}
 <<<<<<< HEAD:Assets/Game/Scenes/ScenasCompartidas/Luis_MainMenu.unity
+<<<<<<< HEAD:Assets/Game/Scenes/ScenasCompartidas/Luis_MainMenu.unity
 <<<<<<< HEAD:Assets/Game/Scenes/ScenasCompartidas/MainMenu.unity
     m_FontSize: 95
     m_FontStyle: 1
@@ -626,6 +631,13 @@ MonoBehaviour:
     m_MinSize: 0
     m_MaxSize: 56
 >>>>>>> ced800369a547b26b1bfd51505124cbac3bba082:Assets/Game/Scenes/ScenasCompartidas/Luis_MainMenu.unity
+=======
+    m_FontSize: 32
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 56
+>>>>>>> parent of 772140b (leo Casita):Assets/Game/Scenes/ScenasCompartidas/MainMenu.unity
 =======
     m_FontSize: 32
     m_FontStyle: 1
@@ -794,6 +806,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 2
 <<<<<<< HEAD:Assets/Game/Scenes/ScenasCompartidas/Luis_MainMenu.unity
+<<<<<<< HEAD:Assets/Game/Scenes/ScenasCompartidas/Luis_MainMenu.unity
     m_MaxSize: 45
 =======
     m_Font: {fileID: 12800000, guid: c1546d101b37fe34881b262fb16ff7ad, type: 3}
@@ -803,6 +816,9 @@ MonoBehaviour:
     m_MinSize: 0
     m_MaxSize: 40
 >>>>>>> ced800369a547b26b1bfd51505124cbac3bba082:Assets/Game/Scenes/ScenasCompartidas/Luis_MainMenu.unity
+=======
+    m_MaxSize: 40
+>>>>>>> parent of 772140b (leo Casita):Assets/Game/Scenes/ScenasCompartidas/MainMenu.unity
 =======
     m_MaxSize: 40
 >>>>>>> parent of 772140b (leo Casita):Assets/Game/Scenes/ScenasCompartidas/MainMenu.unity
@@ -887,6 +903,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 2
 <<<<<<< HEAD:Assets/Game/Scenes/ScenasCompartidas/Luis_MainMenu.unity
+<<<<<<< HEAD:Assets/Game/Scenes/ScenasCompartidas/Luis_MainMenu.unity
     m_MaxSize: 45
 =======
     m_Font: {fileID: 12800000, guid: c1546d101b37fe34881b262fb16ff7ad, type: 3}
@@ -896,6 +913,9 @@ MonoBehaviour:
     m_MinSize: 0
     m_MaxSize: 40
 >>>>>>> ced800369a547b26b1bfd51505124cbac3bba082:Assets/Game/Scenes/ScenasCompartidas/Luis_MainMenu.unity
+=======
+    m_MaxSize: 40
+>>>>>>> parent of 772140b (leo Casita):Assets/Game/Scenes/ScenasCompartidas/MainMenu.unity
 =======
     m_MaxSize: 40
 >>>>>>> parent of 772140b (leo Casita):Assets/Game/Scenes/ScenasCompartidas/MainMenu.unity
