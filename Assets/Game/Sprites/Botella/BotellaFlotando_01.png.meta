@@ -1,17 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<<< HEAD:Assets/Game/Sprites/Botella/BotellaFlotando_01.png.meta
 guid: 60f45debaf8f02e4c8b60641756d5864
-========
-guid: 31872c5f87efcfd4fbe74f39bd11112a
->>>>>>>> parent of 772140b (leo Casita):Assets/Game/Sprites/Botella/BotellaFlotando_00.png.meta
-=======
-<<<<<<<< HEAD:Assets/Game/Sprites/Botella/BotellaFlotando_06.png.meta
-guid: 71a154bd15e147a49907ec458c24323b
-========
-guid: 60f45debaf8f02e4c8b60641756d5864
->>>>>>>> leo:Assets/Game/Sprites/Botella/BotellaFlotando_01.png.meta
->>>>>>> leo
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

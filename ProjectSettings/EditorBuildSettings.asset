@@ -6,22 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Game/Scenes/ScenasCompartidas/Luis_INTRO.unity
+    path: Assets/Game/Scenes/ScenasCompartidas/INTRO.unity
     guid: 41e669b6975cae645801bd04070e4139
   - enabled: 1
-    path: Assets/Game/Scenes/ScenasCompartidas/Luis_MainMenu.unity
+    path: Assets/Game/Scenes/ScenasCompartidas/MainMenu.unity
     guid: 02b4ab320b0cc7042a945e871104016b
   - enabled: 1
-    path: Assets/Game/Scenes/ScenasCompartidas/Luis_SeleccionBici.unity
+    path: Assets/Game/Scenes/ScenasCompartidas/SeleccionBici.unity
     guid: 2896192dac66b4a46b5c2c7084830fd9
   - enabled: 1
-    path: Assets/Game/Scenes/ScenasCompartidas/Luis_Opciones.unity
+    path: Assets/Game/Scenes/ScenasCompartidas/Opciones.unity
     guid: 29e9ed0181fa7394ead0c80067c86ba9
   - enabled: 1
-    path: Assets/Game/Scenes/ScenasCompartidas/Luis_Credits.unity
+    path: Assets/Game/Scenes/ScenasCompartidas/Credits.unity
     guid: b93d4276b29f1ab4ba3da631dca4afd5
   - enabled: 1
-    path: Assets/Game/Scenes/ScenasCompartidas/Luis_PauseMenu.unity
+    path: Assets/Game/Scenes/ScenasCompartidas/PauseMenu.unity
     guid: 2f84011287de59745a143d3cff6fcfcc
   - enabled: 1
     path: "Assets/Game/Scenes/BiciMonta\xF1a/Nivel_1_Mon.unity"
@@ -51,10 +51,10 @@ EditorBuildSettings:
     path: Assets/Game/Scenes/BiciCiudad/Nivel_3_Ciu.unity
     guid: 839abef22d2f81e4094cc6c7f1670fa8
   - enabled: 1
-    path: Assets/Game/Scenes/ScenasCompartidas/Luis_Muerte.unity
+    path: Assets/Game/Scenes/ScenasCompartidas/Muerte.unity
     guid: b497518e20e2b5949b769cf18107b4a1
   - enabled: 1
-    path: Assets/Game/Scenes/ScenasCompartidas/Luis_THEEND.unity
+    path: Assets/Game/Scenes/ScenasCompartidas/THEEND.unity
     guid: 9a55ef8243878284c82378a3c6afd8f3
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: ebe046802659cae45aa9a0304b541b35, type: 2}
