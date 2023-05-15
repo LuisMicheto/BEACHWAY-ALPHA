@@ -183,8 +183,13 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+<<<<<<< HEAD
   m_Offset: {x: -0.0040433235, y: -1.1851989}
   m_Size: {x: 4.0612054, y: 1.6301844}
+=======
+  m_Offset: {x: -0.001208864, y: -1.1455219}
+  m_Size: {x: 3.9195082, y: 1.5054868}
+>>>>>>> leo
   m_Direction: 1
 --- !u!95 &6832807813063137870
 Animator:
@@ -477,8 +482,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.011763724, y: 0.24949864}
-  m_Size: {x: 1.9976441, y: 0.5152443}
+  m_Offset: {x: 0.0024253328, y: 0.00053398334}
+  m_Size: {x: 1.8557506, y: 0.29079142}
   m_Direction: 1
 --- !u!114 &6832807813114246850
 MonoBehaviour:

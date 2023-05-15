@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Game/Sprites/Botella/BotellaFlotando_04.png.meta
 guid: c27b43bf5dc59614fb10f9eb58f80324
+========
+guid: ec08c309c04260b46af2e087fc373de9
+>>>>>>>> leo:Assets/Game/Sprites/Botella/BotellaFlotando_03.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
